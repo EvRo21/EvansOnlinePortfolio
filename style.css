@@ -1,4 +1,4 @@
-orh1 {
+h1 {
     text-align: center;
     font-size: 2.5em;
 }
@@ -73,6 +73,7 @@ li a {
   display: block;
   color: white;
   padding: 1.25em;
+  top: 50%;
 }
 
 li a:hover {
@@ -123,6 +124,11 @@ li a:hover {
   z-index: -1;
   scroll-snap-type: x mandatory;
 }
+.align {
+  top: 1000px; 
+  right: 200px;
+}
+
 .slide {
   width: 650px;
   flex-shrink: 0;
@@ -202,9 +208,17 @@ li a:hover {
     text-align: left;
     right: 0px;
   }
+  li a {
+    padding-top: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    visibility: hidden;
+  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
   .box2 {
     font-size: 0.6em
   }
@@ -212,4 +226,58 @@ li a:hover {
     text-align: left;
     right: 0px;
   }
+  .projecttxt {
+    font-size: 0.6em;
+    width: 50%;
+    position: absolute;
+    margin-top: 20.25em;
+    font-family: "Open Sans";
+  }
+  .projecttxt2 {
+    font-size: 0.6em;
+    width: 50%;
+    position: absolute;
+    margin-top: 880px;
+    font-family: "Open Sans"
+  }
+  .align2 {
+    margin-top: 150px;
+  }
+
+  .slider {
+    width: 250px;
+    height: 310px;
+    display: flex;
+    overflow-x: auto;
+    position: absolute;
+    top: 810px;
+    right: 30px ;
+    z-index: -1;
+    scroll-snap-type: x mandatory;
+    text-align: left !important;
+    margin-left: auto !important;
+    float: left !important; 
+    margin-right: 100px !important;
+  }
+  .image {
+    width: 250px;
+    height: 310px;
+  }
+  .slide {
+    width: 250px;
+    flex-shrink: 0;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .align {
+    top: 1560px !important; 
+    float: left !important;
+    margin-right: -65px !important;
+  }
+  .pdf {
+  width: 100%;
+  height: 138em;
 }
+}
+
+
