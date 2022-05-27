@@ -23,8 +23,11 @@ a:hover {
   width: 100%;
   height: 100%;
   float: center;
-  padding-bottom: 2.5em;
-  margin-bottom: 0.3125em;
+}
+
+.explore {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 
@@ -53,7 +56,7 @@ header ul {
   position: fixed;
   width: 100%;
   background: black;
-  background: linear-gradient(55deg, #1da1f2 0%, #1fc8db 51%, #2cb5e8 85%); 
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
 /* 
     Title: How To Create a Gradient Background on Scroll
     Author: Not Given
@@ -119,16 +122,24 @@ li a:hover {
   width: 650px;
   height: 510px;
   display: flex;
-  overflow-x: auto;
   position: absolute;
   left: 770px;
-  top: 410px;
+  top: 380px;
   z-index: -1;
-  scroll-snap-type: x mandatory;
 }
 .align {
-  top: 1000px; 
-  right: 200px;
+  left: 770px;
+  top: 950px;
+}
+
+.align3 {
+  left: 770px;
+  top: 1530px;
+}
+
+.align4 {
+  left: 770px;
+  top: 2130px;
 }
 
 .slide {
@@ -162,7 +173,18 @@ li a:hover {
   margin-bottom: 10px;
   margin-left: -10px;
   background: black; 
-  background: linear-gradient(55deg, #1da1f2 0%, #1fc8db 51%, #2cb5e8 85%);  
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
+}
+
+.banner1 {
+  width: 102%;
+  height: 800px;
+  background-color: rgba(29, 161, 242, 1);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  background: black; 
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
 }
 
 .pdf {
@@ -196,6 +218,10 @@ li a:hover {
   .aboutmeimg {
     width: 150px;
     height: 218px;
+  }
+  .aboutmeim1g {
+    height: 218px;
+    width: 300px;
   }
   .header {
     font-size: 7px;
