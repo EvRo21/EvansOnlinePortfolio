@@ -119,7 +119,7 @@ li a:hover {
   height: 500px;
 }
 .slider {
-  width: 650px;
+  width: 550px;
   height: 510px;
   display: flex;
   position: absolute;
@@ -129,17 +129,17 @@ li a:hover {
 }
 .align {
   left: 770px;
-  top: 950px;
+  top: 640px;
 }
 
 .align3 {
   left: 770px;
-  top: 1530px;
+  top: 1230px;
 }
 
 .align4 {
   left: 770px;
-  top: 2130px;
+  top: 1540px;
 }
 
 .slide {
@@ -213,7 +213,7 @@ li a:hover {
 
 @media only screen and (max-width: 730px) {
   .intro{
-    font-size: 8px; 
+    font-size: 28px; 
   }
   .aboutmeimg {
     width: 150px;
@@ -269,7 +269,7 @@ li a:hover {
     font-family: "Open Sans"
   }
   .align2 {
-    margin-top: 190px;
+    margin-top: 180px;
   }
 
   .slider {
@@ -285,9 +285,10 @@ pdf {
 #customers td, #customers th {
   border: 1px solid #ddd; 
   padding: 8px;
-  padding-top: 110px;
   width: 45em;
 }
+
+
 
 
 
